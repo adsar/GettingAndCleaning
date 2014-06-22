@@ -140,27 +140,46 @@ variable names in a programming language.
   fBodyGyro_std_Z	
   fBodyGyro_meanFreq_X	
   fBodyGyro_meanFreq_Y	
-  fBodyGyro_meanFreq_Z	
-  fBodyAccMag_mean	
-  fBodyAccMag_std	
-  fBodyAccMag_meanFreq	
-  fBodyBodyAccJerkMag_mean	
-  fBodyBodyAccJerkMag_std	
-  fBodyBodyAccJerkMag_meanFreq	
-  fBodyBodyGyroMag_mean	
-  fBodyBodyGyroMag_std	
-  fBodyBodyGyroMag_meanFreq	
-  fBodyBodyGyroJerkMag_mean	
-  fBodyBodyGyroJerkMag_std	
-  fBodyBodyGyroJerkMag_meanFreq	
-  angletBodyAccMean.gravity	
-  angletBodyAccJerkMean.gravityMean	
-  angletBodyGyroMean.gravityMean	
-  angletBodyGyroJerkMean.gravityMean	
-  angleX.gravityMean	
-  angleY.gravityMean	
+  fBodyGyro_meanFreq_Z
+  
+  fBodyAccMag_mean
+  
+  fBodyAccMag_std
+  
+  fBodyAccMag_meanFreq
+  
+  fBodyBodyAccJerkMag_mean
+  
+  fBodyBodyAccJerkMag_std
+  
+  fBodyBodyAccJerkMag_meanFreq
+  
+  fBodyBodyGyroMag_mean
+  
+  fBodyBodyGyroMag_std
+  
+  fBodyBodyGyroMag_meanFreq
+  
+  fBodyBodyGyroJerkMag_mean
+  
+  fBodyBodyGyroJerkMag_std
+  
+  fBodyBodyGyroJerkMag_meanFreq
+  
+  angletBodyAccMean.gravity
+  
+  angletBodyAccJerkMean.gravityMean
+  
+  angletBodyGyroMean.gravityMean
+  
+  angletBodyGyroJerkMean.gravityMean
+  
+  angleX.gravityMean
+  
+  angleY.gravityMean
+  
   angleZ.gravityMean
-
+  
 
 Script run_analysis.R
 =====================
