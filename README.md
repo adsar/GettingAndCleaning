@@ -1,13 +1,11 @@
-==================================================================
 Getting and Cleaning Data 
-Coursera, June 2014
-Course Project
 ==================================================================
+Course Project, Coursera, June 2014
+-----------------------------------
 Code Repository:   https://github.com/adsar/GettingAndCleaning
-==================================================================
 
-The repository contains the following files:
--------------------------------------------
+Files Included in this Repository:
+---------------------------------
 README.md
   top-level description of file contents, including the processing
   steps performed and where to find descriptions of input and output datasets.
@@ -35,11 +33,9 @@ run_analysis.R
   For a step-wise description of the inner working of the script, 
   please refer to CodeBook.md.
 
-data
-  directory containing the Samsung dataset
-
-outData 
-  this is the tidy dataset produced by the R script (output data)
-
-See CodeBook.md for details on the input and output datasets.
+Note:
+-----
+The input and output datasets are stored in two subfolders,
+which are not included in the repository. See CodeBook.md for 
+more details on the input and output datasets.
 

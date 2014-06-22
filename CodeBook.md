@@ -1,13 +1,14 @@
 Getting and Cleaning Data
-Course Project
-Coursera, June 2014
-CodeBook
 ==============================================================================
+Course Project, Coursera, June 2014
+-----------------------------------
+CodeBook
+--------
 This project consists of a script called run_analysis.R, that consumes a 
 dataset of measurements made with a Samsung mobile device and produces a tidy
 dataset as output.
+
 run_analysis.R is required to perform the following tasks:
-----------------------------------------------------------
 1. Merges the training and the test sets to create one data set.
 2. Extracts only the measurements on the mean and standard deviation for 
    each measurement. 
@@ -191,8 +192,8 @@ and then combines and summarizes the results.
  Calls the function getXMeanStd(), once for each dataset (Test and Train)
  then combines the resulting data frames, summarizes and writes 
  the output file.
+ 
  The following steps describe the main section of the script:
------------------------------------------------------------------------------
 01. Call function to read and subset the Test dataset
 02. Call function to read and subset the Train dataset
 03. Append rows from the two datasets read above
@@ -212,7 +213,6 @@ and then combines and summarizes the results.
  - subjectFile    path to the file that contains the subject variable
  
  The following is the list of steps performed by this function:
------------------------------------------------------------------------------
   01. Read X_test.txt
   02. Read features.txt
   03. Assign names to the variables, from the features.txt content
