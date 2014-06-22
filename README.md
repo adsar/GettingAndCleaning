@@ -21,8 +21,7 @@ run_analysis.R
   Instructions to Run the script in R:
   1. Ensure that the working directory is set to the same local
      folder where the script file is found.
-  2. Ensure that the current directory contains and inData 
-     subdirectory.
+  2. **IMPORTANT:** in the current directory, create a sub-directory called **inData**, and copy the input dataset (Samsung data files) inside the **inData** folder (here is where the script expects to find the input files).
   3. Copy the content of the run_analysis.R file, paste it on
      the RStudio console, and press Enter.
      It should take 30 seconds to a minute, depending on the
