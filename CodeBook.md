@@ -4,7 +4,7 @@ Coursera, June 2014
 CodeBook
 ==============================================================================
 This project consists of a script called run_analysis.R, that consumes a 
-dataset of meassurements made with a Samsung mobile device and produces a tidy
+dataset of measurements made with a Samsung mobile device and produces a tidy
 dataset as output.
 run_analysis.R is required to perform the following tasks:
 ----------------------------------------------------------
@@ -25,12 +25,12 @@ detail in two text files which are included in inData folder:
 2. features_info.txt: a codebook-like description of the variables 
 
 The following aspects of the input dataset are worth documenting because
-they are relevant to understand how the script works:
+they are relevant to understanding how the script works:
 
 features.txt
   2-column vector, associates the sequential order of each variable in the 
-  training set (X_train.txt) to a short name.
-  Note that this name is composed mainlyof 3 parts, as follows: 
+  training set (X_train.txt) to a short name, which is composed mainly 
+  of 3 parts, as follows: 
     MEASSUREMENT-FUNCTION-DIRECTION
   where FUNCTION is the function used to calculate the variable out 
   from the raw data, and we are interested in the following:
@@ -61,15 +61,15 @@ Note that the raw data variables from the input dataset are not needed for this
 project and can be ignored.
 
 
-
 Output Data
 ===========
 outData/X_mean_activity_subject.txt
-The output data consists of a tab-separated text file, with headers.
-The table contains the means, grouped by subject and activity, of a subset of 
-variables from the input dataset, which in turn represent normalized means 
-and standard deviations of the meassurements.
-Following is a list of the 88 features of the output dataset:
+  The output data consists of a tab-separated text file, with headers.
+  The table contains the means, grouped by subject and activity, of a subset of 
+  variables from the input dataset, which in turn represent normalized means 
+  and standard deviations of the measurements.
+
+Following is the list of the 88 columns found in the output dataset:
 
 Labels
 ------
@@ -80,10 +80,10 @@ Labels
 
 Features: (86 variables)
 ---------
-The values are averages of the input data values, grouped by the two labes above.
+The values are averages of the input data values, grouped by the two labels above.
 
 Please refer to the features_info.txt file in the input data set for details on
-the naming convention (the meanning of eaach name)
+the naming convention (the meaning of each name)
 The names of the variables from the input dataset has been preserved, with minimal
 modification to remove special characters which are not well suited to be used as
 variable names in a programming language.
@@ -202,7 +202,7 @@ and then combines and summarizes the results.
 
  function GetXMeanStd()
  ----------------------
- reads the X values (variable calues), fixes the names, add label columns,
+ reads the X values (variable values), fixes the names, add label columns,
  and select a subset of the variables.
  Params
  - xFile          path to the file that contains the X vector
@@ -215,7 +215,7 @@ and then combines and summarizes the results.
 -----------------------------------------------------------------------------
   01. Read X_test.txt
   02. Read features.txt
-  03. Assign names to teh variables, from the features.txt content
+  03. Assign names to the variables, from the features.txt content
   04. Remove special chars [-+()] from the variables' names
   05. Subset the data frame, keeping only those columns containing "std"
       or "mean" in the name
