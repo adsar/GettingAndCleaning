@@ -53,7 +53,7 @@ project and can be ignored.
 
 Output Data
 ===========
-**outData/X_mean_activity_subject.txt: **
+**outData/X_mean_activity_subject.txt**
 
 The output data consists of a tab-separated text file, with headers.   The table contains the means, grouped by subject and activity, of a subset of variables from the input dataset, which in turn represent normalized means and standard deviations of the measurements.
 
